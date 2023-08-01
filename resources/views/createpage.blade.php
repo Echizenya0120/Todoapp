@@ -15,5 +15,5 @@
         </p>
         <input type="submit" name="creation" value="追加">
     </form>
-    <a href="/tasklist">戻る</a>
+    <a href="/todolist">戻る</a>
 </div>

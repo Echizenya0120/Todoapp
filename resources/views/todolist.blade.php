@@ -10,14 +10,14 @@
             <th>ユーザー名</th>
             <th colspan="2">操作</th>
         </tr>
-        @foreach($fin as $todo)
+        @foreach($todos as $todo)
         <tr>
             <td>{{$todo->taskname}}</td>
             <td>{{$todo->assignedperson}}</td>
             <td>{{$todo->time}}</td>
-            <td>{{$use}}</td>
-            <td><a href="/edit-page/{{$todo->id}}">編集</a></td>
-            <td><a href="/delete-page/{{$todo->id}}">削除</a></td>
+            <td>{{$user}}</td>
+            <td><a href="/edit_page/{{$todo->id}}">編集</a></td>
+            <td><a href="/delete_page/{{$todo->id}}">削除</a></td>
         </tr>
         @endforeach
     </table>
