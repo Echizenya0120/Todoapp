@@ -86,11 +86,4 @@ class TodoController extends Controller
         return redirect('/todolist');
     }
    
-     /**
-     *　削除ページ表示
-     *
-     * @return 削除ページにidを渡して表示する。
-     */
-    public function deletepage($id)
-    {}
 }
