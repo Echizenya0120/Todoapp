@@ -14,5 +14,6 @@ class AppLayout extends Component
     {
         return view('layouts.app');
         //test
+        //コンフリクト発生
     }
 }
